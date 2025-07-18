@@ -1,0 +1,19 @@
+name: SeeRTP
+version: '${project.version}'
+main: su.seemine.seertp.SeeRTP
+api-version: '1.16'
+depend: [LuckPerms]
+authors: [SeeMine]
+website: https://seemine.su
+commands:
+  rtp:
+    description: Телепортация в случайное место
+    usage: /rtp <тип>
+  seertp:
+    description: Управление плагином SeeRTP
+    usage: /seertp reload
+    permission: seertp.admin
+permissions:
+  seertp.admin:
+    description: Доступ к команде /seertp
+    default: op
