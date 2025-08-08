@@ -1,5 +1,8 @@
 # SeeRTP - Плагин для случайной телепортации в Minecraft
 
+![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 ## Описание
 SeeRTP - это плагин для серверов Minecraft (1.16.5+), который предоставляет систему случайной телепортации (Random Teleport) с различными типами телепортаций, GUI-меню и настройкой прав через LuckPerms.
 
