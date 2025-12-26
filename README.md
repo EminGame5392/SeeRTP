@@ -48,7 +48,7 @@ SeeRTP - это плагин для серверов Minecraft (1.16.5+), кот
 
 ## Автор
 Плагин разработал EminGame5392 (GDev)  
-Версия: 1.4.5 (Release)  
+Версия: 3.21.4 (Release)  
 Сайты:  
 - https://gdev.pro (отключён)  
 - https://seemine.su
