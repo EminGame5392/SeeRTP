@@ -1,0 +1,41 @@
+name: SeeRTP
+version: '3.1.0'
+main: su.seemine.seertp.SeeRTP
+api-version: '1.16'
+authors: [SeeMine]
+website: https://gdev.seemine.su
+
+commands:
+  rtp:
+    description: Телепортация в случайное место
+    usage: /rtp [тип]
+  seertp:
+    description: Управление плагином SeeRTP
+    usage: /seertp reload
+    permission: seertp.admin
+
+permissions:
+  seertp.admin:
+    description: Доступ к команде /seertp
+    default: op
+  seertp.menu:
+    description: Доступ к меню телепортации
+    default: true
+  seertp.type.*:
+    description: Доступ ко всем типам телепортации
+    default: op
+  seertp.type.small:
+    description: Доступ к малой телепортации
+    default: true
+  seertp.type.big:
+    description: Доступ к большой телепортации
+    default: true
+  seertp.type.near:
+    description: Доступ к ближней телепортации
+    default: true
+  seertp.type.nether_small:
+    description: Доступ к малой адской телепортации
+    default: true
+  seertp.type.nether_big:
+    description: Доступ к большой адской телепортации
+    default: true

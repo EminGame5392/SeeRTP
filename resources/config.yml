@@ -1,0 +1,156 @@
+gui:
+  title: "&3Меню телепортации"
+  size: 36
+  background:
+    material: "CYAN_STAINED_GLASS_PANE"
+    display_name: "&bСоздание..."
+
+messages:
+  no_permission: "&cУ вас нет прав для использования этого типа RTP."
+  no_group_permission: "&cУ вас нет доступа к этому типу телепортации."
+  type_not_found: "&cТип RTP не найден."
+  cooldown: "&cПодождите {time} секунд перед следующим RTP."
+  teleporting: "&aТелепортация..."
+  config_reloaded: "&aКонфигурация перезагружена."
+  usage: "&cИспользуйте: /rtp <тип>"
+
+types:
+  small:
+    display_name: "&bМалая телепортация"
+    icon: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYzODAwMDgxYWQ5OWQyOTkyZjQ4MzZmYzMyMmRiYmY4ZjAwY2Y1MzNiNGZiNzMxYWIxZWMwNmE0NDVmNjBkYiJ9fX0="
+    lore:
+      - " "
+      - "&b► Радиус: 4.000 блоков"
+      - "&b► Мир: обычный"
+    slot: 11
+    world: "world"
+    radius: 4000
+    pre_teleport_delay: 5
+    default_delay: 300
+    group_delays:
+      - "vip:60"
+      - "default:300"
+    allowed_groups:
+      - vip
+      - premium
+    title: "&aТелепортировано!"
+    subtitle: "&7Вы переместились на координаты: {x}, {y}, {z}"
+    min_y: 64
+    max_y: 100
+    safe_check: true
+    effects:
+      enabled: true
+      sound: "ENTITY_ENDERMAN_TELEPORT"
+      particles: "PORTAL"
+
+  big:
+    display_name: "&bБольшая телепортация"
+    icon: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0ODUwMzFiMzdmMGQ4YTRmM2I3ODE2ZWI3MTdmMDNkZTg5YTg3ZjZhNDA2MDJhZWY1MjIyMWNkZmFmNzQ4OCJ9fX0="
+    lore:
+      - " "
+      - "&b► Радиус: 10.000 блоков"
+      - "&b► Мир: обычный"
+    slot: 13
+    world: "world"
+    radius: 10000
+    pre_teleport_delay: 5
+    default_delay: 300
+    group_delays:
+      - "vip:60"
+      - "default:300"
+    allowed_groups:
+      - vip
+      - premium
+    title: "&aТелепортировано!"
+    subtitle: "&7Вы переместились на координаты: {x}, {y}, {z}"
+    min_y: 64
+    max_y: 100
+    safe_check: true
+    effects:
+      enabled: true
+      sound: "ENTITY_ENDERMAN_TELEPORT"
+      particles: "PORTAL"
+
+  near:
+    display_name: "&bБлижняя телепортация"
+    icon: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5ZTU0Y2JlODc4NjdkMTRiMmZiZGYzZjE4NzA4OTQzNTIwNDhkZmVjZDk2Mjg0NmRlYTg5M2IyMTU0Yzg1In19fQ=="
+    lore:
+      - " "
+      - "&b► Радиус: 15.000 блоков"
+      - "&b► Мир: обычный"
+    slot: 15
+    world: "world"
+    radius: 15000
+    pre_teleport_delay: 5
+    default_delay: 300
+    group_delays:
+      - "vip:60"
+      - "default:300"
+    allowed_groups:
+      - vip
+      - premium
+    title: "&aТелепортировано!"
+    subtitle: "&7Вы переместились на координаты: {x}, {y}, {z}"
+    min_y: 64
+    max_y: 100
+    safe_check: true
+    effects:
+      enabled: true
+      sound: "ENTITY_ENDERMAN_TELEPORT"
+      particles: "PORTAL"
+
+  nether_small:
+    display_name: "&cМалая телепортация"
+    icon: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzNTcxZmY1ODlmMWE1OWJiMDJiODA4MDBmYzczNjExNmUyN2MzZGNmOWVmZWJlZGU4Y2YxZmRkZSJ9fX0="
+    lore:
+      - " "
+      - "&c► Радиус: 4.000 блоков"
+      - "&c► Мир: адский"
+    slot: 21
+    world: "world_nether"
+    radius: 4000
+    pre_teleport_delay: 5
+    default_delay: 300
+    group_delays:
+      - "vip:60"
+      - "default:300"
+    allowed_groups:
+      - vip
+      - premium
+    title: "&aТелепортировано!"
+    subtitle: "&7Вы переместились на координаты: {x}, {y}, {z}"
+    min_y: 32
+    max_y: 100
+    safe_check: true
+    effects:
+      enabled: true
+      sound: "ENTITY_BLAZE_SHOOT"
+      particles: "FLAME"
+
+  nether_big:
+    display_name: "&cБольшая телепортация"
+    icon: "basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDgzNTcxZmY1ODlmMWE1OWJiMDJiODA4MDBmYzczNjExNmUyN2MzZGNmOWVmZWJlZGU4Y2YxZmRkZSJ9fX0="
+    lore:
+      - " "
+      - "&c► Радиус: 8.000 блоков"
+      - "&c► Мир: адский"
+    slot: 23
+    world: "world_nether"
+    radius: 8000
+    pre_teleport_delay: 5
+    default_delay: 300
+    group_delays:
+      - "vip:60"
+      - "default:300"
+    allowed_groups:
+      - vip
+      - premium
+    title: "&aТелепортировано!"
+    subtitle: "&7Вы переместились на координаты: {x}, {y}, {z}"
+    min_y: 32
+    max_y: 100
+    safe_check: true
+    effects:
+      enabled: true
+      sound: "ENTITY_BLAZE_SHOOT"
+      particles: "FLAME"
