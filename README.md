@@ -1,6 +1,6 @@
 # SeeRTP - Плагин для случайной телепортации в Minecraft
 
-![Minecraft Version](https://img.shields.io/badge/Minecraft-1.16.5-brightgreen)
+![Minecraft 1.16.4-1.20.1](https://img.shields.io/badge/Minecraft-1.16.5-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## Описание
